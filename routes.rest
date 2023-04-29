@@ -7,3 +7,17 @@ GET http://localhost:8080/contacts/644d2132803a9f6bbfa85c13
 GET http://localhost:8080/contacts/644d21e1803a9f6bbfa85c16
 ###
 GET http://localhost:8080/contacts/644d223c803a9f6bbfa85c17
+
+
+//RENDER
+###
+GET https://cse-341-iftf.onrender.com/contacts
+
+###
+GET https://cse-341-iftf.onrender.com/contacts/644d2132803a9f6bbfa85c13
+
+###
+GET https://cse-341-iftf.onrender.com/contacts/644d21e1803a9f6bbfa85c16
+
+###
+GET https://cse-341-iftf.onrender.com/contacts/644d223c803a9f6bbfa85c17
