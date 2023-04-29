@@ -1,5 +1,0 @@
-GET http://localhost/contact:8080
-
-###
-GET https://cse341-72jr.onrender.com HTTP/1,1
-
