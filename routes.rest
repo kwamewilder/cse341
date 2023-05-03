@@ -1,23 +1,61 @@
 // LOCALHOST
 ###
 GET http://localhost:8080/contacts
-###
-GET http://localhost:8080/contacts/644d2132803a9f6bbfa85c13
-###
-GET http://localhost:8080/contacts/644d21e1803a9f6bbfa85c16
-###
-GET http://localhost:8080/contacts/644d223c803a9f6bbfa85c17
+
+### Create a new contact
+POST http://localhost:8080/contacts HTTP/1.1 
+content-Type: application/json
+
+{
+  "firstName": "Max",
+  "lastName": "Payne",
+  "email": "maxpayne@example.com",
+  "favoriteColor": "yellow",
+  "birthday": "1990-01-01"
+}
+
+### Update the contact
+PUT http://localhost:8080/contacts/64526eeb1c888aff1dcaa9e1 HTTP/1.1 
+content-Type: application/json
+
+{
+  "firstName": "Van",
+  "lastName": "Wilder",
+  "email": "vanwilder@example.com",
+  "favoriteColor": "green",
+  "birthday": "1992-01-01"
+}
+### Delete the contact
+DELETE http://localhost:8080/contacts/645271171c888aff1dcaa9e2
+
 
 
 //RENDER
 ###
 GET https://cse-341-iftf.onrender.com/contacts
 
-###
-GET https://cse-341-iftf.onrender.com/contacts/644d2132803a9f6bbfa85c13
+### Create a new contact
+POST http://localhost:8080/contacts HTTP/1.1 
+content-Type: application/json
 
-###
-GET https://cse-341-iftf.onrender.com/contacts/644d21e1803a9f6bbfa85c16
+{
+  "firstName": "Max",
+  "lastName": "Payne",
+  "email": "maxpayne@example.com",
+  "favoriteColor": "yellow",
+  "birthday": "1990-01-01"
+}
 
-###
-GET https://cse-341-iftf.onrender.com/contacts/644d223c803a9f6bbfa85c17
+### Update the contact
+PUT http://localhost:8080/contacts/64526eeb1c888aff1dcaa9e1 HTTP/1.1 
+content-Type: application/json
+
+{
+  "firstName": "Van",
+  "lastName": "Wilder",
+  "email": "vanwilder@example.com",
+  "favoriteColor": "green",
+  "birthday": "1992-01-01"
+}
+### Delete the contact
+DELETE http://localhost:8080/contacts/645271171c888aff1dcaa9e2
