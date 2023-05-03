@@ -68,6 +68,7 @@ const deleteContact = async (req, res) => {
   }
 };
 
+// eslint-disable-next-line no-undef
 module.exports = {
   getAll,
   getSingle,
