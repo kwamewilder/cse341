@@ -15,7 +15,7 @@ content-Type: application/json
 }
 
 ### Update the contact
-PUT http://localhost:8080/contacts/64526eeb1c888aff1dcaa9e1 HTTP/1.1 
+PUT http://localhost:8080/contacts/6452bc19942cecca0838c44d HTTP/1.1 
 content-Type: application/json
 
 {
@@ -26,16 +26,16 @@ content-Type: application/json
   "birthday": "1992-01-01"
 }
 ### Delete the contact
-DELETE http://localhost:8080/contacts/645271171c888aff1dcaa9e2
+DELETE http://localhost:8080/contacts/6452bc19942cecca0838c44d
 
 
 
 //RENDER
 ###
-GET https://cse-341-iftf.onrender.com/contacts
+GET https://cse341-rwbv.onrender.com/contacts
 
 ### Create a new contact
-POST https://cse-341-iftf.onrender.com HTTP/1.1 
+POST https://cse341-rwbv.onrender.com/contacts HTTP/1.1 
 content-Type: application/json
 
 {
@@ -47,7 +47,7 @@ content-Type: application/json
 }
 
 ### Update the contact
-PUT https://cse-341-iftf.onrender.com HTTP/1.1 
+PUT https://cse341-rwbv.onrender.com/contacts/6452bd221a7efd15373bcebe HTTP/1.1 
 content-Type: application/json
 
 {
@@ -58,4 +58,4 @@ content-Type: application/json
   "birthday": "1992-01-01"
 }
 ### Delete the contact
-DELETE https://cse-341-iftf.onrender.com/645271171c888aff1dcaa9e2
+DELETE https://cse341-rwbv.onrender.com/contacts/6452bd221a7efd15373bcebe
